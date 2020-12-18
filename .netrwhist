@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/manjaro20/documents/langs/lua/docs/lua5.1'
+let g:netrw_dirhist_1='/home/manjaro20/documents/solar2d/repo/projects-sample/sqlite'
+let g:netrw_dirhist_0='/home/manjaro20/documents/solar2d/repo/projects-sample/sqlite/libs'
+let g:netrw_dirhist_9='/home/manjaro20/documents/solar2d/repo/projects-sample/sqlite'
+let g:netrw_dirhist_8='/home/manjaro20/documents/solar2d/repo/projects-sample/sqlite/Database'
+let g:netrw_dirhist_7='/home/manjaro20/documents/solar2d/repo/projects-sample/sqlite'
+let g:netrw_dirhist_6='/home/manjaro20/documents/solar2d/projects/games/gu3ssit'
+let g:netrw_dirhist_5='/home/manjaro20/documents/solar2d/projects/games/gu3ssit/libs'
+let g:netrw_dirhist_4='/home/manjaro20/documents/solar2d/projects/games/gu3ssit'
+let g:netrw_dirhist_3='/home/manjaro20/documents/solar2d/projects/games/gu3ssit/env'
