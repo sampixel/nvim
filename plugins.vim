@@ -1,6 +1,12 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-	" Better Syntax Support
+    " Vertical thin lines
+    Plug 'yggdroot/indentline'
+    
+    " Tomorrow theme
+    Plug 'joelbrewster/tomorrow'
+    
+    " Better Syntax Support
 	Plug 'sheerun/vim-polyglot'
     
     " Autocompletion w/ Deoplet
