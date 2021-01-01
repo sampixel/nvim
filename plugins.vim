@@ -1,11 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Vertical thin lines
-    Plug 'yggdroot/indentline'
-    
-    " Tomorrow theme
-    Plug 'joelbrewster/tomorrow'
-    
+    " Onedark theme
+    Plug 'joshdick/onedark.vim'
+
     " Better Syntax Support
 	Plug 'sheerun/vim-polyglot'
     
@@ -32,8 +29,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Onedark theme
     Plug 'joshdick/onedark.vim'
-
-	" Relative numbers
-	Plug 'jeffkreeftmeijer/vim-numbertoggle'	
 
 call plug#end()
