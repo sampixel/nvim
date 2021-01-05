@@ -1,5 +1,8 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " colorizer
+    Plug 'norcalli/nvim-colorizer.lua'   
+
     " Onedark theme
     Plug 'joshdick/onedark.vim'
 

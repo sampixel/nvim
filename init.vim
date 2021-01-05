@@ -8,3 +8,4 @@ source $HOME/.config/nvim/themes/lightline.vim
 source $HOME/.config/nvim/extensions/signify.vim
 source $HOME/.config/nvim/extensions/deoplit.vim
 source $HOME/.config/nvim/themes/onedark.vim
+luafile $HOME/.config/nvim/extensions/color.lua
