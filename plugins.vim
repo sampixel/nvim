@@ -1,5 +1,7 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " serious colorscheme
+    Plug '~/documents/vimscript/neovim/darkenvim/darkenvim.vim'
     " lua colorizer
     Plug 'norcalli/nvim-colorizer.lua'   
     " Better Syntax Support

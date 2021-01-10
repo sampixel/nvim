@@ -6,12 +6,13 @@ source $HOME/.config/nvim/plugins.vim
 " general
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/mappings.vim
-source $HOME/.config/nvim/general/abbreviations.vim
+source $HOME/.config/nvim/general/utility.vim
 
 " themes
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/themes/lightline.vim
-source $HOME/.config/nvim/themes/onedark.vim
+"source $HOME/.config/nvim/themes/onedark.vim
+source ~/documents/vimscript/neovim/darkenvim/darkenvim.vim
 
 " extensions
 source $HOME/.config/nvim/extensions/signify.vim
