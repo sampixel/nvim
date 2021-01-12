@@ -9,10 +9,10 @@ source $HOME/.config/nvim/general/mappings.vim
 source $HOME/.config/nvim/general/utility.vim
 
 " themes
-source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/themes/lightline.vim
+"source $HOME/.config/nvim/themes/airline.vim
+"source $HOME/.config/nvim/themes/lightline.vim
 source $HOME/.config/nvim/themes/darkenvim.vim
-source ~/documents/vimscript/neovim/darkenvim/darkenvim.vim
+"source ~/documents/vimscript/neovim/darkenvim/autoload/darkenvim.vim
 
 " extensions
 source $HOME/.config/nvim/extensions/signify.vim

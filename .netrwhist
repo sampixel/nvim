@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/sampixel/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline'
 let g:netrw_dirhist_1='/home/sampixel/.config/nvim/autoload/plugged/lightline.vim'
 let g:netrw_dirhist_0='/home/sampixel/.config/nvim/autoload/plugged/pgmnt.vim'
 let g:netrw_dirhist_9='/home/sampixel/documents/lua/lua'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/sampixel/documents/solar2d/projects/games/gu3ssit/e
 let g:netrw_dirhist_5='/home/sampixel/documents/solar2d/projects/games/gu3ssit'
 let g:netrw_dirhist_4='/home/sampixel/documents/solar2d/projects/games/gu3ssit/libs'
 let g:netrw_dirhist_3='/home/sampixel/documents/solar2d/projects/games/gu3ssit'
-let g:netrw_dirhist_2='/home/sampixel/documents/vimscript/neovim/serious-nvim'
