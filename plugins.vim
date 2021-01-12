@@ -1,7 +1,9 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " serious colorscheme
-    Plug '~/documents/vimscript/neovim/darkenvim/darkenvim.vim'
+    " inspecthi theme plugin
+    Plug 'cocopon/inspecthi.vim'
+    " darken colorscheme
+    Plug 'sampixel/darkenvim'
     " lua colorizer
     Plug 'norcalli/nvim-colorizer.lua'   
     " Better Syntax Support
@@ -21,7 +23,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
-    " Onedark theme
-    Plug 'joshdick/onedark.vim'
 
 call plug#end()

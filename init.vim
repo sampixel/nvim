@@ -11,7 +11,7 @@ source $HOME/.config/nvim/general/utility.vim
 " themes
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/themes/lightline.vim
-"source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/themes/darkenvim.vim
 source ~/documents/vimscript/neovim/darkenvim/darkenvim.vim
 
 " extensions
