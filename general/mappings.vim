@@ -2,7 +2,7 @@
 " MAPPING OVERVIEW
 
 " reload $MYVIMRC file
-noremap rc :source $MYVIMRC<cr>
+nnoremap rc :source $MYVIMRC<cr>
 
 " avoid using <esc> for escape in insert mode
 inoremap jk <esc>
@@ -18,3 +18,6 @@ inoremap Jk <esc>
 nnoremap <tab> :bnext<cr>
 " SHIFT-TAB will go back
 nnoremap <s-tab> :bprevious<cr>
+
+" enable deletion inside parenthesis, you it with dp
+onoremap p i(

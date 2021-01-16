@@ -1,6 +1,3 @@
-" set leader key
-let g:mapleader = "\<Space>"
-
 syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
@@ -28,12 +25,13 @@ set showtabline=4                       " Always show tabs
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
-set updatetime=100                      " Faster completion
-set timeoutlen=100                      " By default timeoutlen is 100 ms
+set updatetime=50                       " Faster completion
+set timeoutlen=50                       " By default timeoutlen is 100 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set number relativenumber               " set relative number
-set autochdir                          " Your working directory will always be the same as your working directory
+set ignorecase                          " set ignore case-sensitive
+set autochdir                           " Your working directory will always be the same as your working directory
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vim alternatively you can run :source $MYVIMRC
 

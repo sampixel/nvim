@@ -5,7 +5,3 @@ endif
 if (has("termguicolors"))
     set termguicolors
 endif
-
-let g:lightline = {
-      \ 'colorscheme': 'darkenvim',
-      \ }

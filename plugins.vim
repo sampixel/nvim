@@ -1,9 +1,11 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
-
+    
+    " syntax support for moonscript
+    Plug 'leafo/moonscript-vim'
     " inspecthi theme plugin
     Plug 'cocopon/inspecthi.vim'
-    " darken colorscheme
-    Plug 'sampixel/darkenvim'
+    " nvimcolors
+    Plug 'sampixel/nvimcolors'
     " lua colorizer
     Plug 'norcalli/nvim-colorizer.lua'   
     " Better Syntax Support
@@ -13,11 +15,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
 	Plug 'jiangmiao/auto-pairs'
 	" Plugin Airline
-    "Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline'
 	" Startify plugin
 	Plug 'mhinz/vim-startify'   
     " Light line
-    "Plug 'itchyny/lightline.vim'
+    Plug 'itchyny/lightline.vim'
     " Git integration
 	Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
