@@ -4,8 +4,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafo/moonscript-vim'
     " inspecthi theme plugin
     Plug 'cocopon/inspecthi.vim'
-    " nvimcolors
-    Plug 'sampixel/nvimcolors'
+    " darkenvim colorscheme
+    Plug 'sampixel/darkenvim.vim'
     " lua colorizer
     Plug 'norcalli/nvim-colorizer.lua'   
     " Better Syntax Support

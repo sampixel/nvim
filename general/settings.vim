@@ -1,4 +1,3 @@
-syntax enable                           " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
@@ -32,6 +31,8 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 set number relativenumber               " set relative number
 set ignorecase                          " set ignore case-sensitive
 set autochdir                           " Your working directory will always be the same as your working directory
+set incsearch                           " Instant search while typing
+set hlsearch                            " Highlight search word
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vim alternatively you can run :source $MYVIMRC
 
