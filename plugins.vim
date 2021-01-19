@@ -1,11 +1,11 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
     
-    "Plug '~/documents/vimscript/neovim/darkenvim.vim'
     " syntax support for moonscript
     Plug 'leafo/moonscript-vim'
     " inspecthi theme plugin
     Plug 'cocopon/inspecthi.vim'
-    " darkenvim colorscheme
+    " sampixel colorschemes
+    Plug 'sampixel/wintenvim.vim'
     Plug 'sampixel/darkenvim.vim'
     " lua colorizer
     Plug 'norcalli/nvim-colorizer.lua'   

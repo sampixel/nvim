@@ -13,16 +13,16 @@ endif
 "let g:airline#extensions#tabline#right_sep = ""
 "let g:airline#extensions#tabline#right_alt_sep = ""
 
-" colorscheme variables
-"let g:darkenvim_uniform_status_lines = 1
-"let g:darkenvim_italic = 1
-"let g:darkenvim_italic_comments = 1
+" colorscheme varibles
+"let g:wintenvim_uniform_status_lines = 1
+"let g:wintenvim_italic = 1
+"let g:wintenvim_italic_comments = 1
 
 " set lightline theme
-let g:lightline = {"colorscheme": "darkenvim"}
+let g:lightline = {"colorscheme": "wintenvim"}
 
 " set airline theme
-let g:airline_theme = "darkenvim"
+let g:airline_theme = "wintenvim"
 
-" set colorscheme name
-colorscheme darkenvim
+" set colorscheme
+colorscheme wintenvim
