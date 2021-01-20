@@ -1,7 +1,7 @@
 " enable syntax
 syntax enable
 
-" enable termguicolors
+" enable termguicolors if (has("termguicolors"))
 if (has("termguicolors"))
     set termguicolors
 endif
