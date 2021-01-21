@@ -5,8 +5,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " inspecthi theme plugin
     Plug 'cocopon/inspecthi.vim'
     " sampixel colorschemes
-    Plug 'sampixel/wintenvim.vim'
-    Plug 'sampixel/darkenvim.vim'
+    "Plug 'sampixel/wintenvim.vim'
+    "Plug 'sampixel/darkenvim.vim'
     " lua colorizer
     Plug 'norcalli/nvim-colorizer.lua'   
     " Better Syntax Support
@@ -27,4 +27,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
 
+    Plug '~/documents/vimscript/neovim/wintenvim.vim'
+    Plug '~/documents/vimscript/neovim/darkenvim.vim'
 call plug#end()
