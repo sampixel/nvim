@@ -9,8 +9,7 @@ source $HOME/.config/nvim/general/mappings.vim
 source $HOME/.config/nvim/general/utility.vim
 
 " themes
-"source $HOME/.config/nvim/themes/darkenvim.vim
-source $HOME/.config/nvim/themes/wintenvim.vim
+source $HOME/.config/nvim/themes/mood-colors.vim
 
 " extensions
 source $HOME/.config/nvim/extensions/signify.vim
