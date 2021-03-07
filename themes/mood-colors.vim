@@ -13,10 +13,10 @@ endif
 "   luascheme
 
 " set lightline theme
-let g:lightline = {"colorscheme": "colorfull"}
+let g:lightline = {"colorscheme": "luascheme"}
 
 " set airline theme
-let g:airline_theme = "colorfull"
+let g:airline_theme = "luascheme"
 
 " set colorscheme name
-colorscheme colorfull
+colorscheme luascheme

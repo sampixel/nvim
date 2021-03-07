@@ -3,7 +3,7 @@ set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
 set pumheight=10                        " Makes popup menu smaller
 set fileencoding=utf-8                  " The encoding written to file
-set ruler              			        " Show the cursor position all the time
+set ruler              			            " Show the cursor position all the time
 set cmdheight=2                         " More space for displaying messages
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set mouse=a                             " Enable your mouse
@@ -33,6 +33,7 @@ set ignorecase                          " set ignore case-sensitive
 set autochdir                           " Your working directory will always be the same as your working directory
 set incsearch                           " Instant search while typing
 set hlsearch                            " Highlight search word
+set noro                                " Disable read-only mode
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vim alternatively you can run :source $MYVIMRC
 
