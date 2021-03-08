@@ -12,6 +12,8 @@ au FileType lua    :iabbrev <buffer> locl local
 au FileType lua    :iabbrev <buffer> lcal local
 au FileType lua    :iabbrev <buffer> loal local
 au FileType lua    :iabbrev <buffer> fuction function
+au FileType lua    :set shiftwidth=2
+au FileType lua    :set tabstop=2
 
 " Etlua
 au FileType etlua  :iabbrev <buffer> h1 <h1></h1>
@@ -47,6 +49,14 @@ au FileType html   :iabbrev <buffer> meta <meta>
 au FileType html   :iabbrev <buffer> p <p></p>
 au FileType html   :set shiftwidth=4
 au FileType html   :set tabstop=4
+
+" Css
+au FileType css    :set shiftwidth=3
+au FileType css    :set tabstop=3
+
+" Php
+au FileType php    :set shiftwidth=4
+au FileType php    :set tabstop=4
 
 " VimScript
 au FileType vim    :iabbrev <buffer> fi if
