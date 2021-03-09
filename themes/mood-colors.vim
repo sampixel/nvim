@@ -11,12 +11,13 @@ endif
 "   wintenvim
 "   colorfull
 "   luascheme
+"   violetelo
 
 " set lightline theme
-let g:lightline = {"colorscheme": "luascheme"}
+let g:lightline = {"colorscheme": "violetelo"}
 
 " set airline theme
-let g:airline_theme = "luascheme"
+let g:airline_theme = "violetelo"
 
 " set colorscheme name
-colorscheme luascheme
+colorscheme violetelo

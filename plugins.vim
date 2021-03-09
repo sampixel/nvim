@@ -26,5 +26,5 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 
-Plug '~/development/vim/mood-colors'
+"Plug '~/development/vim/mood-colors'
 call plug#end()
