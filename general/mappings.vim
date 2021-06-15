@@ -21,3 +21,6 @@ nnoremap <s-tab> :bprevious<cr>
 
 " enable deletion inside parenthesis, you it with dp
 onoremap p i(
+
+" open/close navigation menu
+nnoremap <silent> <s-n> :NERDTreeToggle<cr>

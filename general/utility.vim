@@ -17,18 +17,18 @@ au FileType lua set tabstop=2
 au FileType lua set autoindent
 
 " Html
-au FileType html set shiftwidth=4
-au FileType html set tabstop=4
+au FileType html set shiftwidth=2
+au FileType html set tabstop=2
 au FileType html set autoindent
 
 " Css
-au FileType css set shiftwidth=4
-au FileType css set tabstop=4
+au FileType css set shiftwidth=2
+au FileType css set tabstop=2
 au FileType css set autoindent
 
 " Php
-au FileType php set shiftwidth=4
-au FileType php set tabstop=4
+au FileType php set shiftwidth=2
+au FileType php set tabstop=2
 au FileType php set autoindent
 
 " VimScript
@@ -42,19 +42,19 @@ au FileType vim iabbrev <buffer> ednif endif
 au FileType vim set autoindent
 
 " C
-au FileType c set shiftwidth=4
-au FileType c set tabstop=4
+au FileType c set shiftwidth=2
+au FileType c set tabstop=2
 au FileType c set autoindent
 
 " Markdown
 au FileType mkd set autoindent
 
 " Yaml
-au FileType yaml set shiftwidth=4
-au FileType yaml set tabstop=4
+au FileType yaml set shiftwidth=2
+au FileType yaml set tabstop=2
 au FileType yaml set autoindent
 
 " Twig
-au FileType twig set shiftwidth=4
-au FileType twig set tabstop=4
+au FileType twig set shiftwidth=2
+au FileType twig set tabstop=2
 au FileType twig set autoindent
